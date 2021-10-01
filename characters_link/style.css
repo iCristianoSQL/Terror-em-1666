@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width: 100%;
+}
+.header_image {
+    width: 100%;
+    position: relative;
+}
+.div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 45px;
+}
+.profilepicture {
+    width: 580px;
+    border-radius: 100%;
+
+
+}
+.text_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.about_picture {
+    width: 200px
+}
+.p_about {
+    text-align: center;
+}
+.p_aboutdiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #000000, #7a7a7a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.linkedinimage {
+    width: 200px;
+    background: none;
+}
+.addresfooter {
+    background: none;
+    margin-block-start: 75px;
+}
+.instaimg {
+    width: 50px;
+    height: 50px;
+    margin-block-start: -55px;
+    background: none;
+}
+@media (max-width: 615px) {
+    .profilepicture {
+        width: 400px;
+    }
+}
+@media (max-width: 430px) {
+    .profilepicture {
+        width: 250px;
+
+    }
+}
+@media (max-width: 525px) {
+    .p_aboutdiv {
+        font-size: 20px;
+    }
+}
+@media (max-width: 350px) {
+    .p_aboutdiv {
+        font-size: 12px;
+    }
+}
